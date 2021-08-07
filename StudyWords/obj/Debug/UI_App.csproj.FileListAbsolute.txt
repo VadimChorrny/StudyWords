@@ -13,3 +13,17 @@ C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\obj\Debug\UI_App.cspro
 C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\obj\Debug\UI_App.csproj.CoreCompileInputs.cache
 C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\obj\Debug\StudyWords.exe
 C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\obj\Debug\StudyWords.pdb
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\obj\Debug\ShowCardWindow.g.cs
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\obj\Debug\ShowCardWindow.baml
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\bin\Debug\BLL.dll
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\bin\Debug\DAL.dll
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\bin\Debug\AutoMapper.dll
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\bin\Debug\EntityFramework.dll
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\bin\Debug\BLL.pdb
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\bin\Debug\DAL.pdb
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\bin\Debug\DAL.dll.config
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\bin\Debug\AutoMapper.xml
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\bin\Debug\EntityFramework.xml
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\obj\Debug\UI_App.csproj.CopyComplete
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\bin\Debug\EntityFramework.SqlServer.xml

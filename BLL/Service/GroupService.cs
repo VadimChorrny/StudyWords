@@ -17,6 +17,7 @@ namespace BLL.Service
         IEnumerable<Group> GetAll();
         IEnumerable<int> GetCountWords();
         IEnumerable<string> GetGroupName();
+        IEnumerable<int> GetId();
     }
 
     public class GroupService : IGroupService
@@ -63,6 +64,11 @@ namespace BLL.Service
         public IEnumerable<string> GetGroupName()
         {
             return unitOfWork.GroupRepository.Get().Select(a => a.Name);
+        }
+
+        public IEnumerable<int> GetId()
+        {
+            return unitOfWork.GroupRepository.Get().Select(a => a.Id);
         }
 
         public void RemoveGroup(Group group)

@@ -1,0 +1,14 @@
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\BLL\bin\Debug\BLL.dll
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\BLL\bin\Debug\BLL.pdb
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\BLL\bin\Debug\AutoMapper.dll
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\BLL\bin\Debug\DAL.dll
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\BLL\bin\Debug\EntityFramework.dll
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\BLL\bin\Debug\DAL.pdb
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\BLL\bin\Debug\DAL.dll.config
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\BLL\bin\Debug\AutoMapper.xml
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\BLL\bin\Debug\EntityFramework.xml
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\BLL\obj\Debug\BLL.dll
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\BLL\obj\Debug\BLL.pdb
