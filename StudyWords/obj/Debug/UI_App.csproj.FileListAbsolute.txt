@@ -1,0 +1,15 @@
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\bin\Debug\StudyWords.exe.config
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\bin\Debug\StudyWords.exe
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\bin\Debug\StudyWords.pdb
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\obj\Debug\UI_App.csproj.AssemblyReference.cache
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\obj\Debug\MainWindow.g.cs
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\obj\Debug\App.g.cs
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\obj\Debug\StudyWords_MarkupCompile.cache
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\obj\Debug\StudyWords_MarkupCompile.lref
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\obj\Debug\MainWindow.baml
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\obj\Debug\StudyWords.g.resources
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\obj\Debug\StudyWords.Properties.Resources.resources
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\obj\Debug\UI_App.csproj.GenerateResource.cache
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\obj\Debug\UI_App.csproj.CoreCompileInputs.cache
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\obj\Debug\StudyWords.exe
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\obj\Debug\StudyWords.pdb
