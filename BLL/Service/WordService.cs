@@ -19,6 +19,7 @@ namespace BLL.Service
         IEnumerable<string> GetWords();
         IEnumerable<string> GetTranslate();
         IEnumerable<int> GetGroupId();
+        IEnumerable<Word> GetWord();
 
     }
     public class WordService : IWordService
@@ -55,6 +56,17 @@ namespace BLL.Service
                     TranslateWords = item.TranslateWords,
                     IsKnow = item.IsKnow,
                     GroupId = item.GroupId
+                };
+            }
+        }
+
+        public IEnumerable<Word> GetWord()
+        {
+            foreach(var item in words.Get())
+            {
+                yield return new Word()
+                {
+                    Words = item.Words
                 };
             }
         }

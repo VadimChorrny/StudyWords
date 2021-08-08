@@ -7,8 +7,19 @@
         mc:Ignorable="d"
         Title="ShowCardWindow" Height="450" Width="800" Background="Wheat">
     <Grid>
-        <ScrollViewer>
-            <StackPanel x:Name="groupPanel"/>
-        </ScrollViewer>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="246*"/>
+            <ColumnDefinition Width="547*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0" Margin="0,0,1.4,0">
+            <StackPanel>
+                <TextBlock Text="Select group word" FontSize="30" />
+                <ComboBox  Name="cbGroups" FontSize="30" />
+                <Button x:Name="btnSearch" Content="Go" Height="40" Click="btnSearch_Click" FontSize="30" Margin="0 30 0 0"/>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Column="1" Background="White">
+            <DataGrid x:Name="datagrid" />
+        </Grid>
     </Grid>
 </Window>

@@ -21,10 +21,12 @@ namespace StudyWords
     public partial class MainWindow : Window
     {
         ShowCardWindow show = new ShowCardWindow();
+        AllWordsWindow window = new AllWordsWindow();
         public MainWindow()
         {
             InitializeComponent();
-            show.Show();
+            //show.Show();
+            window.Show();
             this.Close();
         }
     }

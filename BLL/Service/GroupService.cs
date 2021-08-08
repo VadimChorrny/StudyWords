@@ -51,9 +51,14 @@ namespace BLL.Service
                 yield return new Group()
                 {
                     Name = item.Name,
-                    CardCounter = item.CardCounter // maybe add ICollection with words....
+                    CardCounter = item.CardCounter, // maybe add ICollection with words....
+                    Words = item.Words
                 };
             }
+        }
+
+        public void GetWords()
+        {
         }
 
         public IEnumerable<int> GetCountWords()
@@ -76,5 +81,6 @@ namespace BLL.Service
             unitOfWork.GroupRepository.Delete(group);
             unitOfWork.Save();
         }
+
     }
 }

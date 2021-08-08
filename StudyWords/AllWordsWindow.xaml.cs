@@ -1,6 +1,5 @@
 ﻿using BLL.Service;
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,29 +16,33 @@ using System.Windows.Shapes;
 namespace StudyWords
 {
     /// <summary>
-    /// Interaction logic for ShowCardWindow.xaml
+    /// Interaction logic for AllWordsWindow.xaml
     /// </summary>
-    public partial class ShowCardWindow : Window
+    public partial class AllWordsWindow : Window
     {
-        IGroupService groupService = new GroupService();
         IWordService wordService = new WordService();
-        public ShowCardWindow()
+        int index = 0;
+        public AllWordsWindow()
         {
             InitializeComponent();
-            LoadAllGroups();
+            LoadAllWords();
+        }
+        void LoadAllWords()
+        {
+            foreach (var item in wordService.GetWord().Where(a => a.Id == index))
+            {
+                txtShow.Text += item;
+            }
         }
 
-        private void LoadAllGroups()
+        private void btnKnow_Click(object sender, RoutedEventArgs e)
         {
-            cbGroups.ItemsSource = groupService.GetGroupName();
+            index++;
         }
-        private void LoadSelectedWordsGroup()
+
+        private void btnDontKnow_Click(object sender, RoutedEventArgs e)
         {
-            datagrid.ItemsSource = wordService.GetAll();
-        }
-        private void btnSearch_Click(object sender, RoutedEventArgs e)
-        {
-            LoadSelectedWordsGroup();
+
         }
     }
 }

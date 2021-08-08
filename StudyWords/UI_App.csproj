@@ -65,9 +65,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AllWordsWindow.xaml.cs">
+      <DependentUpon>AllWordsWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ShowCardWindow.xaml.cs">
       <DependentUpon>ShowCardWindow.xaml</DependentUpon>
     </Compile>
+    <Page Include="AllWordsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

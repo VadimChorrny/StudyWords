@@ -21,7 +21,6 @@ namespace DAL.Entities
         public string Name { get; set; }
         [Required]
         public int CardCounter { get; set; }
-        ICollection<Word> Words { get; set; }
-
+        public ICollection<Word> Words { get; set; }
     }
 }
