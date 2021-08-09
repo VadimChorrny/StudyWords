@@ -11,14 +11,12 @@ namespace DAL.Repositories
     {
         void Save();
         GenericRepository<Word> WordRepository { get; }
-        GenericRepository<Group> GroupRepository { get; }
     }
     public class UnitOfWork : IUnitOfWork, IDisposable
     {
         private StudyWordsModel context;
 
         private GenericRepository<Word> wordRepository;
-        private GenericRepository<Group> groupRepository;
 
         public UnitOfWork(StudyWordsModel context)
         {
@@ -35,18 +33,6 @@ namespace DAL.Repositories
                     this.wordRepository = new GenericRepository<Word>(context);
                 }
                 return wordRepository;
-            }
-        }
-        public GenericRepository<Group> GroupRepository
-        {
-            get
-            {
-                // lazy loading
-                if (this.groupRepository == null)
-                {
-                    this.groupRepository = new GenericRepository<Group>(context);
-                }
-                return groupRepository;
             }
         }
 

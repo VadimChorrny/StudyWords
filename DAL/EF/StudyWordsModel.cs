@@ -11,7 +11,6 @@ namespace DAL
             : base("name=StudyWordsModel")
         {
         }
-        public virtual DbSet<Group> Groups { get; set; }
         public virtual DbSet<Word> Words { get; set; }
     }
 }

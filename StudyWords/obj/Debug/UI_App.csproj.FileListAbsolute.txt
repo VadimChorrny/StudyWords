@@ -13,8 +13,6 @@ C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\obj\Debug\UI_App.cspro
 C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\obj\Debug\UI_App.csproj.CoreCompileInputs.cache
 C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\obj\Debug\StudyWords.exe
 C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\obj\Debug\StudyWords.pdb
-C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\obj\Debug\ShowCardWindow.g.cs
-C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\obj\Debug\ShowCardWindow.baml
 C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\bin\Debug\BLL.dll
 C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\bin\Debug\DAL.dll
 C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\bin\Debug\AutoMapper.dll
@@ -27,5 +25,15 @@ C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\bin\Debug\EntityFramew
 C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\obj\Debug\UI_App.csproj.CopyComplete
 C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\obj\Debug\AllWordsWindow.g.cs
-C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\obj\Debug\AllWordsWindow.baml
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\obj\Debug\Page\DataGridPage.g.cs
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\obj\Debug\Page\DataGridPage.baml
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\bin\Debug\MaterialDesignColors.dll
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\bin\Debug\MaterialDesignColors.pdb
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\StudyWords\obj\Debug\App.baml

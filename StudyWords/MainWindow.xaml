@@ -5,8 +5,45 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StudyWords"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800"
+         FontSize="30">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="150*"/>
+            <RowDefinition Height="17*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0" Grid.Column="0"
+                   Text="My Progress" FontSize="33" Grid.ColumnSpan="2" Margin="0,0,264.6,0"/>
+        <TextBlock x:Name="txtScore" Grid.Row="0" Grid.Column="1"
+                   Text="Score:" Grid.ColumnSpan="2" Margin="0.2,0,263.6,0"/>
+        <ProgressBar x:Name="progressbar" Grid.Row="0" Grid.Column="2"
+                     Maximum="100" Margin="0.4,20,-0.4,20" />
+        <Button Grid.Column="0" Grid.Row="1" Content="Don't know"
+                Click="NoknowButtonClick"
+                Padding="45 15"
+                VerticalAlignment="Center" HorizontalAlignment="Center" Margin="51,151,50.8,117.266" />
+        <UniformGrid Columns="1" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" Margin="0.2,0,263.6,0.4" Grid.RowSpan="2">
+            <TextBlock x:Name="txtWords" Text="Banana" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <TextBlock x:Name="txtTranslateWords" Text="Банан" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </UniformGrid>
+        <Button Grid.Column="2" Grid.Row="1" FontSize="30" Content="Know"
+                Click="KnowButtonClick"
+                Padding="45 15"
+                VerticalAlignment="Center" HorizontalAlignment="Center" Margin="48.4,151,48.6,117.266"/>
+        <Button Grid.Row="2" Grid.ColumnSpan="3"
+                Content="Restart"
+                Margin="5,4.6,4.6,5"
+                Click="OnReloadClick"/>
+        <Button Grid.Row="3" Grid.ColumnSpan="3"
+                Content="All Words"
+                Margin="5,4.6,4.6,5"
+                Click="SettingButtonClick" />
     </Grid>
 </Window>
