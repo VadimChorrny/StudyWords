@@ -18,7 +18,8 @@ namespace BLL.Service
         IEnumerable<bool> GetIsKnow();
         IEnumerable<string> GetWords();
         IEnumerable<string> GetTranslate();
-        IEnumerable<int> GetGroupId();
+        IEnumerable<Word> GetWord();
+        void Update(Word word);
 
     }
     public class WordService : IWordService
@@ -51,17 +52,23 @@ namespace BLL.Service
             {
                 yield return new Word()
                 {
+                    Id = item.Id,
                     Words = item.Words,
                     TranslateWords = item.TranslateWords,
                     IsKnow = item.IsKnow,
-                    GroupId = item.GroupId
                 };
             }
         }
 
-        public IEnumerable<int> GetGroupId()
+        public IEnumerable<Word> GetWord()
         {
-            return (IEnumerable<int>)unitOfWork.WordRepository.Get().Select(a => a.GroupId);
+            foreach (var item in words.Get())
+            {
+                yield return new Word()
+                {
+                    Words = item.Words
+                };
+            }
         }
 
         public IEnumerable<bool> GetIsKnow()
@@ -82,6 +89,12 @@ namespace BLL.Service
         public void RemoveWord(Word word)
         {
             unitOfWork.WordRepository.Delete(word);
+            unitOfWork.Save();
+        }
+
+        public void Update(Word word)
+        {
+            unitOfWork.WordRepository.Update(word);
             unitOfWork.Save();
         }
     }

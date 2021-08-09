@@ -17,8 +17,6 @@ namespace DAL.Entities
         [Required]
         [MaxLength(150)]
         public string TranslateWords { get; set; }
-        public int? GroupId { get; set; }
-        public Group Group { get; set; }
         public bool IsKnow { get; set; }
     }
 }

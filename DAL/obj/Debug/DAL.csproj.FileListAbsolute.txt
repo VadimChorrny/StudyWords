@@ -13,3 +13,4 @@ C:\Users\vadim_oyanwuw\source\repos\StudyWords\DAL\obj\Debug\DAL.pdb
 C:\Users\vadim_oyanwuw\source\repos\StudyWords\DAL\obj\Debug\DAL.Migrations.FirstSettings.resources
 C:\Users\vadim_oyanwuw\source\repos\StudyWords\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
 C:\Users\vadim_oyanwuw\source\repos\StudyWords\DAL\obj\Debug\DAL.Migrations.Setbooleanvariable.resources
+C:\Users\vadim_oyanwuw\source\repos\StudyWords\DAL\obj\Debug\DAL.Migrations.Tep.resources
